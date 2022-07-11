@@ -1,7 +1,6 @@
 <template>
   <div>
-    <!-- 一级路由 -->
-    <router-view></router-view>
+    <van-nav-bar title="地图找房" left-arrow @click-left="$router.back()"/>
   </div>
 </template>
 
